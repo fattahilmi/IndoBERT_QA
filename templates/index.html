@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="container">
+    <div class="row my-5">
+        <form action="/qa" method="post">
+            <div class="mb-3">
+                <label>Context</label>
+                <textarea class="form-control" rows="5" name="context" value="" placeholder="input teks..."></textarea>
+            </div>
+            <div class="mb-3">
+                <label>Pertanyaan</label>
+                <input type="text" class="form-control" name="question" value="" placeholder="input pertanyaan...">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+    {% if request %}
+    {{ request }}
+    {% endif %}
+</div>
+
+{% endblock content %}
