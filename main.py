@@ -7,8 +7,8 @@ from fastapi.encoders import *
 # from fastapi.staticfiles import StaticFiles
 # from starlette.requests import Request
 
-# test gan
-# perbaikan
+# mengapa ini bisa terjadi?
+# dikarenakan ada sebuah
 
 templates = Jinja2Templates(directory='templates')
 # from forms import UserCreateQA
