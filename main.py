@@ -7,6 +7,8 @@ from fastapi.encoders import *
 # from fastapi.staticfiles import StaticFiles
 # from starlette.requests import Request
 
+# ini juga merupakan perubahan 2, commit 2 ya
+
 # mengapa ini bisa terjadi?
 # dikarenakan ada sebuah
 
