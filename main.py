@@ -8,6 +8,7 @@ from fastapi.encoders import *
 # from starlette.requests import Request
 
 # test gan
+# perbaikan
 
 templates = Jinja2Templates(directory='templates')
 # from forms import UserCreateQA
